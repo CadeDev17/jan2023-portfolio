@@ -84,6 +84,11 @@ p {
   margin-bottom: 1rem;
 }
 
+.project-description {
+  padding: 0 15px;
+  text-align: center;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -314,6 +319,9 @@ legend {
 }
 
 @media (max-width: 1200px) {
+  * {
+    overflow-x: hidden;
+  }
   legend {
     font-size: calc(1.275rem + 0.3vw) ;
   }
@@ -527,7 +535,14 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: contain;
+}
+
+.img-fluid-projects {
+  max-width: 100%;
+  height: 300px;
+  object-fit: contain;
 }
 
 .img-thumbnail {
