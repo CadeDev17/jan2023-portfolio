@@ -318,10 +318,19 @@ legend {
   white-space: normal;
 }
 
+.adjust{
+  margin-right: 5rem;
+}
+
 @media (max-width: 1200px) {
   * {
     overflow-x: hidden;
   }
+
+  .adjust{
+    margin: 0;
+  }
+
   legend {
     font-size: calc(1.275rem + 0.3vw) ;
   }
