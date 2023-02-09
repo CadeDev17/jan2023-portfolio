@@ -322,6 +322,10 @@ legend {
   margin-right: 5rem;
 }
 
+.mobile-portfolio{
+  display:none;
+}
+
 @media (max-width: 1200px) {
   * {
     overflow-x: hidden;
@@ -329,6 +333,10 @@ legend {
 
   .adjust{
     margin: 0;
+  }
+
+  .mobile-portfolio{
+    display:block;
   }
 
   legend {
